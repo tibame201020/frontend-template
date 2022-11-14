@@ -7,6 +7,5 @@ import { SideBarService } from './services/side-bar.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'frontend-template';
   constructor(public sideBarService: SideBarService) {}
 }
